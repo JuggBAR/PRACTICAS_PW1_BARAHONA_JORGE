@@ -1,0 +1,18 @@
+﻿<Window x:Class="FILESTREAMER_WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FILESTREAMER_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Crear" HorizontalAlignment="Left" Height="56" Margin="84,287,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click"/>
+        <TextBox x:Name="tbfile_name" HorizontalAlignment="Left" Height="56" Margin="84,177,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="142"/>
+        <ComboBox x:Name="cbFiles" HorizontalAlignment="Left" Height="56" Margin="513,177,0,0" VerticalAlignment="Top" Width="164" SelectionChanged="CbFiles_SelectionChanged"/>
+        <Label Content="Nombre de Archivo
+               " HorizontalAlignment="Left" Height="47" Margin="84,130,0,0" VerticalAlignment="Top" Width="142"/>
+        <Label Content="Archivos" HorizontalAlignment="Left" Height="47" Margin="513,130,0,0" VerticalAlignment="Top" Width="164"/>
+
+    </Grid>
+</Window>
